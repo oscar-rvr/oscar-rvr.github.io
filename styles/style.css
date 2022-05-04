@@ -1,0 +1,128 @@
+                                :root {
+                                   --white-text: #fff;
+                               }
+                               
+                               * {
+                                   margin: 0;
+                                   padding: 0;
+                                   font-family: 'Roboto', sans-serif;
+                                   box-sizing: border-box;
+                               }
+                               
+                               body {
+                                   /*background: #041E42;*/
+                                   background-color: black;
+                               }
+                               
+                               .separador {
+                                   color: white;
+                                   text-align: center;
+                                   margin: 5rem 0;
+                                   color: #fff;
+                                   /*La primera sobra será del color del texto. Las siguientes del color que queramos el brillo. Dejamos x e y a 0 y vamos aumentando la borrosidad.*/
+                                   text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff;
+                                   text-align: center;
+                                   font-size: 60px;
+                               }
+                               
+                               body nav {
+                                   width: 50%;
+                                   margin: .3rem auto;
+                               }
+                               
+                               .nav-container {
+                                   display: flex;
+                                   justify-content: space-evenly;
+                                   margin-top: 2rem;
+                               }
+                               
+                               a {
+                                   color: white;
+                                   font-weight: normal;
+                                   text-decoration: none;
+                                   margin: 3rem auto;
+                                   background-color: rgba(255, 255, 255, .3);
+                                   backdrop-filter: blur(20px);
+                                   border: solid 1px rgba(255, 255, 255, .5);
+                                   padding: .3rem 3rem;
+                                   width: auto;
+                                   text-align: center;
+                                   font-size: xx-large;
+                               }
+                               
+                               a:hover {
+                                   box-shadow: 0 0 15px 0 #00d7c3 inset, 0 0 25px 5px #00d7c3;
+                               }
+                               
+                               .background-top-row {
+                                   background-color: rgba(52, 3, 45, 0.3);
+                                   backdrop-filter: blur(.4rem);
+                               }
+                               
+                               .container {
+                                   display: flex;
+                                   justify-content: center;
+                                   height: 100%
+                                   /*align-items: center;*/
+                               }
+                               
+                               .card {
+                                   /*border-radius: 1rem;*/
+                                   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+                                   display: flex;
+                                   flex-direction: column;
+                                   justify-content: space-between;
+                                   margin: 1.5rem;
+                                   overflow: hidden;
+                                   width: 15rem;
+                                   backdrop-filter: blur(1rem);
+                                   background-color: rgba(255, 255, 255, 0.060);
+                                   border: .1rem solid rgba(255, 255, 255, 0.18);
+                                   color: var(--white-text);
+                               }
+                               
+                               .card h2 {
+                                   letter-spacing: .1rem;
+                                   margin: 1rem 0;
+                               }
+                               
+                               .top-row {
+                                   padding: 1rem;
+                                   display: flex;
+                                   flex-direction: column;
+                                   align-items: center;
+                                   justify-content: space-between;
+                                   height: 50%;
+                               }
+                               
+                               .content {
+                                   padding: .5rem;
+                                   width: 100%;
+                                   display: flex;
+                                   flex-direction: column;
+                                   align-items: flex-start;
+                                   justify-content: space-between;
+                               }
+                               
+                               .content p {
+                                   font-size: .9rem;
+                               }
+                               
+                               .button-content {
+                                   display: flex;
+                               }
+                               
+                               .button {
+                                   color: var(--white-text);
+                                   font-size: .8rem;
+                                   padding: .5rem .5rem;
+                                   letter-spacing: .1rem;
+                                   margin-bottom: .3rem;
+                                   align-self: flex-end;
+                                   border: .1rem solid rgba(255, 255, 255, 0.18);
+                               }
+                               /*proyectos*/
+                               
+                               #img-aktun img {
+                                   width: 100%;
+                               }
