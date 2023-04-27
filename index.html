@@ -4,103 +4,550 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d128a6ee40.js" crossorigin="anonymous"></script>
 
-    <title>OscarVega.dev</title>
-    <script src="https://kit.fontawesome.com/71f11ae5f0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/principal.css">
-    <link rel="stylesheet" href="./css/blog.css">
-    <meta name="viewport" content="width=device-width, user-scalable=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Oscar Vega</title>
 </head>
 
 <body>
-    <!-- header-menu -->
-    <header>
-        <div class="header-content">
-            <div class="logo">
-                <h1>Oscar<b> Vega</b></h1>
+
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!-- <i class="fa-solid fa-mug-saucer" style="color: #ffffff;"></i> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">01.About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">02.Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">03.Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">04.Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">05.Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume" download="files/oscar_vega_cv.pdf">06.Resume</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="menu" id="show-menu">
-                <nav>
-                    <ul>
-                        <li class="menu-selected "><a href="#"><i class=" fas fa-home"></i>Inicio</a></li>
-                        <li><a href="./proyectos.html"><i class=" fab fa-youtube"></i>Proyectos</a></li>
-                        <li><a href="./certificaciones.html"><i class=" fab fa-youtube"></i>Certificaciones</a></li>
-                        <!-- text-selected-no funciona -->
-                        <li><a href="./blog.html" class="text-menu-selected"><i class=" fas fa-file-alt"></i>Blog Personal</a></li>
-                        <li><a href="./contacto.html"><i class=" fas fa-headset"></i>Contácto</a></li>
-
-                    </ul>
-                </nav>
-            </div>
-
-            <!-- <div id="ctn-icon-search">
-                <i class="fas fa-search" id="icon-search"></i>
-            </div> -->
         </div>
+    </nav>
 
-        <div id="icon-menu">
-            <i class="fas fa-bars"></i>
+
+    <!-- MAIN MAIN MAIN MAIN -->
+    <!-- MAIN MAIN MAIN MAIN -->
+    <!-- MAIN MAIN MAIN MAIN -->
+    <main class="container d-flex justify-content-center">
+        <div class="presentation ">
+            <p class="white pn">Hi, my name is</p>
+            <h1 class="white h1p">Oscar Vega</h1>
+            <h2 class="white h2p">I like building things for the web</h2>
+            <p class="white pp">I am a software engineer interested in implementing technology in both professional settings and everyday life problems</p>
         </div>
-    </header>
-
-    <div id="ctn-bars-search">
-        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
-    </div>
-
-    <ul id="box-search">
-        <li><a href="articulo.html"><i class="fas fa-search"></i> como hacer html</a></li>
-        <li><a href="articulo.html"><i class="fas fa-search"></i> como crear html</a></li>
-        <li><a href="articulo.html"><i class="fas fa-search"></i> Resultado de busqueda 1>html</a></li>
-        <li><a href="articulo.html"><i class="fas fa-search"></i> Resultado de busqueda 2>html</a></li>
-        <li><a href="articulo.html"><i class="fas fa-search"></i> Resultado de busqueda 3>html</a></li>
-        <li><a href="articulo.html"><i class="fas fa-search"></i> Resultado de búsqueda 4>html</a></li>
-    </ul>
-    <div id="cover-ctn-search">
-
-    </div>
-
-
-
-    <div class="container-all" id="move-content">
-
-        <!-- portada -->
-        <div class="blog-container-cover">
-            <div class="container-cover-info indexaux">
-
-                <h1>Mi nombre es Oscar</h1>
-
-
-            </div>
-
-        </div>
+    </main>
 
 
 
 
-        <!-- Boton volver hacia arriba -->
-        <div id="button-up">
-            <i class="fas fa-chevron-up"></i>
-        </div>
 
+    <!-- ABOUT ABOUT ABOUT ABOUT -->
+    <!-- ABOUT ABOUT ABOUT ABOUT -->
+    <!-- ABOUT ABOUT ABOUT ABOUT -->
+    <section id="about" class="container d-flex justify-content-center">
+        <div class="fprojects container">
+            <h2 class="white subtp">01. About Me</h2>
 
-        <div class="container-footer">
-            <footer>
-                <div class="logo-footer">
-                    <img src="./img/logo.png" alt="">
+            <div class="subclase2-about  row" id="test">
+
+                <div class="col-12 col-sm-6 col-md-6 subclase ">
+                    <p>
+                        Hello, my name is Oscar and I'm passionate about technology in general. I love software development because it allows me to create things from scratch, from something that increases sales for a business to solving a common problem. Currently, I'm a student
+                        about to graduate in computer systems engineering. However, since my second semester, I joined a university startup, and although the company couldn't overcome the local market, I'm very grateful because it allowed me to work with
+                        real clients and as part of a team alongside people who knew more than me.
+                    </p>
                 </div>
-                <div class="redes-footer">
-                    <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
-                    <a href="#"><i class="fab fa-linkedin icon-redes-footer"></i></a>
+                <div class="col-12 col-sm-6 col-md-6">
+                    <img id="yo" src="img/yo2.jpg" alt="">
                 </div>
 
-                <hr>
-                <h4> Todos los derechos reservados</h4>
-            </footer>
+            </div>
+
+
         </div>
-    </div>
-    <script src="./js/script.js"></script>
+
+
+
+    </section>
+
+
+
+
+
+    <!-- EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE -->
+    <!-- EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE -->
+    <!-- EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE -->
+    <section id="experience">
+        <div class="fprojects container">
+            <h2 class="white subtp">02.Experience</h2>
+            <div class="faq-content">
+                <div class="faq-question">
+                    <input id="q1" type="checkbox" class="panel">
+                    <div class="plus ">+</div>
+                    <label for="q1" class="panel-title parrafog">Support Engineer Java @Softtek</label>
+                    <div class="panel-content">
+                        <a href="#menu1"> </a>
+                        <h3 class="date">Current</h3>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Searching for and fixing security vulnerabilities at the code level in Java</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Provide support to the code when components need to be updated</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Propose improvements to established code</p>
+
+
+                    </div>
+                </div>
+
+                <div class="faq-question">
+                    <input id="q2" type="checkbox" class="panel">
+                    <div class="plus">+</div>
+                    <label for="q2" class="panel-title parrafog">Front-end developer @Softtek</label>
+                    <div class="panel-content">
+                        <a href="#menu2"></a>
+                        <h3 class="date">November 2022</h3>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Implementing user interface (UI) designs using HTML, CSS, and JavaScript</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Writing and maintaining efficient and modular code</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Testing and debugging front-end code</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Creating and maintaining project documentation</p>
+
+                    </div>
+                </div>
+
+                <div class="faq-question">
+                    <input id="q3" type="checkbox" class="panel">
+                    <div class="plus">+</div>
+                    <label for="q3" class="panel-title parrafog">Software engineer @Sokoladli (University Project)</label>
+                    <div class="panel-content">
+                        <a href="#menu3"></a>
+                        <h3 class="date">June 2018</h3>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Developing software applications for point of sales and inventory management using Java and related technologies</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Designing and implementing databases to support the software applications</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Developing and maintaining software documentation, such as user manuals and technical specifications</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Creating and maintaining project documentation</p>
+                        <p class="parrafo"><i class=" fa-solid fa-check"></i> Website layout design</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+    </section>
+
+
+
+
+
+    <!-- PROJECT PROJECT PROJECT PROJECT -->
+    <!-- PROJECT PROJECT PROJECT PROJECT -->
+    <!-- PROJECT PROJECT PROJECT PROJECT -->
+    <section id="projects">
+
+        <div class="fprojects container">
+            <h2 class="white subtp ">03.Projects</h2>
+
+
+            <div class="project">
+                <div class="backg">
+                    <div class="container-boxes">
+                        <div class="firstbox">
+
+                            <i class="fa-regular fa-folder iconos"></i>
+                        </div>
+                        <div class="secondbox">
+                            <a target="_blank" href="https://dashing-frangipane-f317d9.netlify.app/"><i class="fa-solid fa-link iconos"></i></a>
+                            <a target="_blank" href=""><i class="fa-brands fa-github iconos"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="white bold title-card">Car Searcher</h3>
+
+                    <div class="thirdbox">
+                        <p class="white">Simple application that allows searching for different cars from a database emulated in JS.</p>
+                    </div>
+
+                    <div class="fourthbox">
+                        <p class="white">JS</p>
+                        <p class="white">HTML</p>
+                        <p class="white">CSS</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="project">
+                <div class="backg">
+                    <div class="container-boxes">
+                        <div class="firstbox">
+
+                            <i class="fa-regular fa-folder iconos"></i>
+                        </div>
+                        <div class="secondbox">
+                            <a target="_blank" href="https://imaginative-dolphin-350ba0.netlify.app/"><i class="fa-solid fa-link iconos"></i></a>
+                            <a target="_blank" href=""><i class="fa-brands fa-github iconos"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="white bold title-card">Tweets local storage</h3>
+
+                    <div class="thirdbox">
+                        <p class="white">Application that simulates saving tweets in local storage.</p>
+                    </div>
+
+                    <div class="fourthbox">
+                        <p class="white">JS</p>
+                        <p class="white">HTML</p>
+                        <p class="white">CSS</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="backg">
+                    <div class="container-boxes">
+                        <div class="firstbox">
+
+                            <i class="fa-regular fa-folder iconos"></i>
+                        </div>
+                        <div class="secondbox">
+                            <a target="_blank" href="https://sage-granita-30ec70.netlify.app/"><i class="fa-solid fa-link iconos"></i></a>
+                            <a target="_blank" href=""><i class="fa-brands fa-github iconos"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="white bold title-card">Email Sender</h3>
+
+                    <div class="thirdbox">
+                        <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, fuga. Eius, ex dignissimos. Voluptates minus sit culpa impedit iusto!</p>
+                    </div>
+
+                    <div class="fourthbox">
+                        <p class="white">JS</p>
+                        <p class="white">HTML</p>
+                        <p class="white">CSS</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="backg">
+                    <div class="container-boxes">
+                        <div class="firstbox">
+
+                            <i class="fa-regular fa-folder iconos"></i>
+                        </div>
+                        <div class="secondbox">
+                            <a target="_blank" href="https://lively-medovik-f2146c.netlify.app/"><i class="fa-solid fa-link iconos"></i></a>
+                            <a target="_blank" href=""><i class="fa-brands fa-github iconos"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="white bold title-card">Shopping Cart</h3>
+
+                    <div class="thirdbox">
+                        <p class="white">Simple application that simulates the functioning of a shopping cart</p>
+                    </div>
+
+                    <div class="fourthbox">
+                        <p class="white">JS</p>
+                        <p class="white">HTML</p>
+                        <p class="white">CSS</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="backg">
+                    <div class="container-boxes">
+                        <div class="firstbox">
+
+                            <a target="_blank" href=""><i class="fa-regular fa-folder iconos"></i></a>
+                        </div>
+                        <div class="secondbox">
+                            <a target="_blank" href="https://sage-granita-30ec70.netlify.app/"><i class="fa-solid fa-link iconos"></i></a>
+                            <a target="_blank" href=""><i class="fa-brands fa-github iconos"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="white bold title-card">Email Sender</h3>
+
+                    <div class="thirdbox">
+                        <p class="white">A simple application that allows simulation of an email sender</p>
+                    </div>
+
+                    <div class="fourthbox">
+                        <p class="white">JS</p>
+                        <p class="white">HTML</p>
+                        <p class="white">CSS</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="cont-button">
+                <input type="submit" class="loadmore" id="lmprojects" value="Load More">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- CERTIFICATIONS CERTIFICATIONS CERTIFICATIONS CERTIFICATIONS -->
+    <!-- CERTIFICATIONS CERTIFICATIONS CERTIFICATIONS CERTIFICATIONS -->
+    <!-- CERTIFICATIONS CERTIFICATIONS CERTIFICATIONS CERTIFICATIONS -->
+    <section id="certifications" class="fprojects container d-flex justify-content-center">
+        <h2 class="white subtp">04.Courses & Certifications</h2>
+
+        <div class="gallery-container">
+
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Scrum Fundamentals</h3>
+                <img src="img/certifications/ScrumFundamentals.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Responsive web Design freecodecamp</h3>
+                <img src="img/certifications/Responsive-web-Design-freecodecamp.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Microsoft SQL for Beginners</h3>
+                <img src="img/certifications/Microsoft SQL for Beginners.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">PHP 36 ejercicios</h3>
+                <img src="img/certifications/Aprende PHP 36 ejercicios.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Coding CupTecnm</h3>
+                <img src="img/certifications/CodingCupTecnm-2020.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">High School Certificate</h3>
+                <img src="img/certifications/high school certificate.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">HTML CSS Course</h3>
+                <img src="img/certifications/HTML-CSS-Course.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Human Ethics</h3>
+                <img src="img/certifications/humanEthics.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- ss -->
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Introduction to web</h3>
+                <img src="img/certifications/Introduction to web.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">JavaScript Fundamentals</h3>
+                <img src="img/certifications/JavaScript Fundamentals.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Microsoft SQL Server For Beginners</h3>
+                <img src="img/certifications/Microsoft SQL Server For Beginners.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">MobileAppDevelopment by Google</h3>
+                <img src="img/certifications/MobileAppDevelopment by Google.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">PHP POO MYSQL JQUERY AJAX Course</h3>
+                <img src="img/certifications/PHP-POO-MYSQL,JQUERY AJAX.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Practice course html css</h3>
+                <img src="img/certifications/Practice-course html css.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">Querying Microsoft SQL Server I</h3>
+                <img src="img/certifications/Querying Microsoft SQL Server I.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <!-- ss -->
+
+
+
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">WebDevelopment I</h3>
+                <img src="img/certifications/WebDevelopment I.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="gallery-item certi">
+                <h3 class="white bold  gallery-item">WebDevelopment II by Google</h3>
+                <img src="img/certifications/WebDevelopment II by Google.jpg" alt="Imagen 2">
+                <div class="options">
+                    <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="cont-button container">
+            <input type="submit" class="loadmore" id="certificationsBtn" value="Load More">
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- CONTACT CONTACT CONTACT CONTACT -->
+    <!-- CONTACT CONTACT CONTACT CONTACT -->
+    <!-- CONTACT CONTACT CONTACT CONTACT -->
+
+    <section id="contact" class="container d-flex justify-content-center">
+        <div class="container flex-column d-flex justify-content-center">
+            <h2 class="white subtp">05.Contact</h2>
+
+            <div class="subcontainer">
+                <p class="white">Get In Touch</p>
+                <p class="white">say hi!</p>
+                <div class="social">
+                    <a target="_blank" href="https://github.com/oscar-rvr"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:oscar_rvr@outlook.com"><i class="fa-regular fa-envelope"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/oscar-rvr/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+    <script src="https://kit.fontawesome.com/d128a6ee40.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
